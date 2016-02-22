@@ -1,0 +1,13 @@
+form(action='/login', method='POST')
+  .input-group
+    label(for='email') Email
+    input#email(type='email', name='email', autofocus, required)
+  .input-group
+    label(for='pass') Password
+    input#pass(type='password', name='password', required)
+  .input-group
+    input(type='submit', value='Login')
+
+//-passwords post requests - to not show user and password in the address bar in browser
+
+
